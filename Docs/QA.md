@@ -70,7 +70,7 @@ A detailed table with test data and expected results for every check is in `Docs
 
 | Date | Computer | Compiler | Result |
 |------|----------|----------|--------|
-| 31.10.2026 | Linux | g++ 17, `-Wall -Wextra`, AddressSanitizer on | **48 passed, 0 failed**, no warnings, no memory errors |
+| 31.10.2026 | Linux virtual | g++ 17, `-Wall -Wextra`, AddressSanitizer on | **48 passed, 0 failed**, no warnings, no memory errors |
 | *date* | *Windows, Vasilen Gospodinov* | *Visual Studio 2022, `/W4`* | *fill in after running* |
 
 ## 4. Memory check
@@ -87,7 +87,7 @@ What protects the memory in the code:
 - copying of `MazeGenerator` is forbidden (`= delete`), so the memory can never be freed twice;
 - `TestMemoryCreateAndDestroy` creates and destroys 200 mazes of different sizes.
 
-Result on Linux: no leaks and no invalid access were reported.
+Result on Linux virtual: no leaks and no invalid access were reported.
 
 ## 5. Manual tests
 
@@ -118,19 +118,3 @@ Honest limits of our testing:
 |---|----------|-------------|-----|--------|
 | 1 | Looking at the screen | On the size screen the big text `20 x 20` was so wide that it went under the `-` and `+` buttons | Font made smaller (72 → 48) | Fixed |
 | | | *add new defects here: what happened, how to repeat it, who fixes it* | | |
-
-## 9. How to add a new test
-
-1. Open `Tests/Tests.cpp` and add a function `void TestSomething()`.
-2. Inside, call `Check(condition, "short description");` for every expected fact.
-3. Call the new function in `main()`.
-4. Build and run. Every `[PASS]` or `[FAIL]` line shows the description.
-5. Add the new rows to the Excel table and, if needed, to the table in section 3.1.
-
-## 10. Quality criteria (when the game is "done")
-
-- All automatic tests pass on Windows (`Failed: 0`).
-- No compiler warnings with `/W4` (Visual Studio) or `-Wall -Wextra`.
-- AddressSanitizer reports nothing.
-- All 18 manual steps are `PASSED`.
-- The game starts from any folder and with a missing `Scores.txt`.
