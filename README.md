@@ -295,10 +295,10 @@ PointerBreak/
 
 | | Name | Class | Role |
 |--|------|-------|------|
-| <img src="Media/Team/Teodor.png" width="120"> | [**Teodor Todorov**](https://github.com/TSTodorov24) | 10A | 🧭 Scrum Trainer |
-| <img src="Media/Team/Member2.jpg" width="120"> | [**Borislav Andrikov**](https://github.com/BSAndrikov24) | 10B | ⚙️ Backend Developer |
-| <img src="Media/Team/Member3.jpg" width="120"> | [**Vasilen Gospodinov**](https://github.com/VZGospodinov24) | 10B | 🔍 Quality Engineer |
-| <img src="Media/Team/Member4.jpg" width="120"> | [**Alexander Kasabov**](https://github.com/AAKasabov24) | 10G | 🎨 Frontend Developer |
+| <img src="Media/Team/Teodor.jpg" width="120"> | [**Teodor Todorov**](https://github.com/TSTodorov24) | 10A | 🧭 Scrum Trainer |
+| <img src="Media/Team/Borislav.jpg" width="120"> | [**Borislav Andrikov**](https://github.com/BSAndrikov24) | 10B | ⚙️ Backend Developer |
+| <img src="Media/Team/Vasilen.jpg" width="120"> | [**Vasilen Gospodinov**](https://github.com/VZGospodinov24) | 10B | 🔍 Quality Engineer |                       
+| <img src="Media/Team/Kasabov.JPG" width="120"> | [**Alexander Kasabov**](https://github.com/AAKasabov24) | 10G | 🎨 Frontend Developer |
 
 </div>
 
