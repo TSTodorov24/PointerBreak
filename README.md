@@ -285,7 +285,7 @@ PointerBreak/
 
 | 📋 Documentation | 🎤 Presentation |
 |-----------------|----------------|
-| [View Documentation](PUT-THE-DOCUMENTATION-LINK-HERE) | [View Presentation](PUT-THE-PRESENTATION-LINK-HERE) |
+| [View Documentation](https://codingburgas-my.sharepoint.com/:w:/g/personal/tstodorov24_codingburgas_bg/IQDt3bekZa8xQYWRtlQEXWmiAT02vnfA_vjZYafSFo5Wlbc?e=cx25ef) | [View Presentation](https://codingburgas-my.sharepoint.com/:p:/g/personal/tstodorov24_codingburgas_bg/IQAXQy8cPYdERKCzVqDk6VzKAWPLQRtm5S-_Teq94ynP3iI?e=2h3ap2) |
 
 ---
 
